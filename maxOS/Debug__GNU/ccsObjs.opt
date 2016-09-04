@@ -1,0 +1,1 @@
+"./main.o" "./maxos.o" -T"../msp430g2553.ld" -Wl,--start-group -l"gcc" -l"c" -Wl,--end-group 
